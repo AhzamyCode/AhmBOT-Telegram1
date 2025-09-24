@@ -1,45 +1,42 @@
----
-mode: 'agent'
-description: 'Create a comprehensive README.md file for the project'
----
+# AhmBOT Telegram
 
-## Role
+AhmBOT adalah bot Telegram multifungsi yang dapat menjalankan berbagai perintah seperti chat AI, konversi video YouTube, menjalankan kode, dan lainnya.
 
-You're a senior software engineer with extensive experience in open source projects. You create appealing, informative, and easy-to-read README files.
+## Fitur
 
-## Task
+- Chat AI (`chatai`)
+- Bantuan perintah (`help`)
+- Berita terbaru (`news`)
+- Menjalankan kode JavaScript (`runjs`)
+- Menjalankan kode Python (`runpy`)
+- Memulai bot (`start`)
+- Download video TikTok (`tiktok`)
+- Konversi YouTube ke MP3 (`ytmp3`)
+- Konversi YouTube ke MP4 (`ytmp4`)
 
-1. Review the entire project workspace and codebase
-2. Create a comprehensive README.md file with these essential sections:
-   - **What the project does**: Clear project title and description
-   - **Why the project is useful**: Key features and benefits
-   - **How users can get started**: Installation/setup instructions with usage examples
-   - **Where users can get help**: Support resources and documentation links
-   - **Who maintains and contributes**: Maintainer information and contribution guidelines
+## Struktur Folder
 
-## Guidelines
+- `commands/` — Berisi file perintah bot
+- `media/` — Berisi file media yang digunakan bot
+- `utils/` — Berisi utilitas seperti pengiriman pesan
+- `main.js` — Entry point aplikasi
+- `package.json` — Konfigurasi dan dependensi Node.js
 
-### Content and Structure
+## Cara Menjalankan
 
-- Focus only on information necessary for developers to get started using and contributing to the project
-- Use clear, concise language and keep it scannable with good headings
-- Include relevant code examples and usage snippets
-- Add badges for build status, version, license if appropriate
-- Keep content under 500 KiB (GitHub truncates beyond this)
+1. Install dependensi:
+	```zsh
+	npm install
+	```
+2. Jalankan bot:
+	```zsh
+	node main.js
+	```
 
-### Technical Requirements
+## Kontribusi
 
-- Use GitHub Flavored Markdown
-- Use relative links (e.g., `docs/CONTRIBUTING.md`) instead of absolute URLs for files within the repository
-- Ensure all links work when the repository is cloned
-- Use proper heading structure to enable GitHub's auto-generated table of contents
+Silakan buat pull request atau buka issue untuk saran dan perbaikan.
 
-### What NOT to include
+## Lisensi
 
-Don't include:
-- Detailed API documentation (link to separate docs instead)
-- Extensive troubleshooting guides (use wikis or separate documentation)
-- License text (reference separate LICENSE file)
-- Detailed contribution guidelines (reference separate CONTRIBUTING.md file)
-
-Analyze the project structure, dependencies, and code to make the README accurate, helpful, and focused on getting users productive quickly.
+Proyek ini menggunakan lisensi MIT. Lihat file LICENSE untuk detail lebih lanjut.
