@@ -1,0 +1,36 @@
+{
+  "name": "ahmbot",
+  "version": "1.1.0",
+  "type": "module",
+  "description": "This is a simple ai who make is ahzamycode and in here have a many tolls for a devloper",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon main.js",
+    "start": "node main.js"
+  },
+  "keywords": [
+    "bot",
+    "ahmbot",
+    "toolsbot",
+    "telegram",
+    "bot"
+  ],
+  "author": "AhzamyCode",
+  "license": "ISC",
+  "dependencies": {
+    "@distube/ytdl-core": "^4.16.12",
+    "@google/genai": "^1.20.0",
+    "@supabase/supabase-js": "^2.57.4",
+    "axios": "^1.12.2",
+    "baileys": "^7.0.0-rc.3",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "highlight.js": "^11.11.1",
+    "node-fetch": "^3.3.2",
+    "node-telegram-bot-api": "^0.66.0",
+    "openai": "^5.22.0",
+    "request-promise": "^4.2.6",
+    "ytdl": "^1.4.1"
+  }
+}
